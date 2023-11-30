@@ -35,6 +35,8 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'react'],
   rules: {
+    'react/no-children-prop': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       1,
       {
